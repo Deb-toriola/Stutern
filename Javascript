@@ -1,0 +1,28 @@
+1. var age = prompt("Hi, please enter your age?"); 
+
+if(age > 18){alert("You are old enough to drink as your age is higher than the legal drinking age in Nigeria" )};
+if(age < 18){alert("Your age is " + age + " so you are not eligible to drink")};
+
+var age = prompt("Hi, please enter your age?"); 
+
+if(age > 21){alert("You are old enough to drink as your age is higher than the legal drinking age in Nigeria" )};
+if(age < 18){alert("Your age is " + age + " so you are not eligible to drink")};
+
+6. var word1 =prompt("Enter the first word");
+var word2 = prompt("Enter the second word");
+  var acc = [word1, word2];
+  var answer = alert ((word1.length + word2.length) / acc.length);
+
+7. ar arrayList = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'],
+    arrayList2 = ['Kevin', 'Bacon', 'Love', 'Hart', 'Costner', 'Coleman'];
+ 
+
+function transformFirstAndLast(array) {
+  var res = Object.create(null);
+      res[array[0]] = array[array.length-1];
+      console.log(res);
+      return res;
+}
+
+transformFirstAndLast(arrayList);
+transformFirstAndLast(arrayList2);
